@@ -18,7 +18,7 @@ body{
     background-color: #f6f8f9;
 }
     
-header{
+#header{
     font-size: 2.5rem;
     font-family: 'Rubik', sans-serif;
     background-color: #ffffff;
@@ -41,6 +41,7 @@ main{
 
 #head_main{
     padding-bottom: 5px;
+    padding-top: 2%;
 }
 
 input{
@@ -62,4 +63,45 @@ input{
     background-color: #ffffff;
     border-color: #dbe0e2;
     color: #dbe0e2;
+}
+
+
+div.tickcircle{
+    display: inline-block;
+}
+
+.tickcircle:before {
+    content: '✔';
+    color: var(--bool-green);
+    border: 1px solid var(--bool-green);
+    border-radius: 50%;
+    padding: 2px;
+    padding-right: 6px;
+}
+
+span.topic{
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: x-small;
+    padding: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#central_main{
+    margin-left:0;
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+#divisory{
+    height: 5px;
+    width: 100%;
+    background-color: #f6f8f9;
+    position: absolute;
+    left: 1px;
+}
+
+main *{
+    margin-bottom: 10px;
 }
