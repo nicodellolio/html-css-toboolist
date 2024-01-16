@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Color Palette */
+:root{
+    --bool-blue: #47acf1;
+    --bool-secblue: #45abe9;
+    --bool-purple: #9c72e4;
+    --bool-green: #64c0a8;
+    --bool-orange: #f29d33;
+    --bool-fucsia: #d863a0;
+    --bool-senape: #b0c926;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+    
+header{
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    background-color: #ffffff;
+    padding-left: 2%;
+}
+
+#title{
+    vertical-align:top;
+    color: #051931;
+}
